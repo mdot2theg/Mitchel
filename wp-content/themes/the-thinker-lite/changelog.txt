@@ -1,0 +1,49 @@
+= The Thinker Lite change log =
+
+Version 1.1.5 - November 19, 2018
+- improved support for the new WordPress editor
+
+Version 1.1.4 - August 3, 2018
+- added basic support for the new WordPress editor
+
+Version 1.1.3 - May 24, 2018
+- support for the new 4.9.6 WordPress changes regarding GDPR
+
+Version 1.1.2 - February 20, 2018
+- theme accessibility improvements
+
+Version 1.1.1 - October 10, 2017
+- custom Logo option deprecated and added to core Site Identity section inside the Customizer
+- new translation pot file
+
+Version 1.1 - 05.07.2016.
+- Changes inside the style.css - added new tags
+- new .pot file inside the languages folder
+
+Version 1.0.9 - 08.02.2015.
+- Changes inside the style.css - added new tags
+- Added new screenshot.png file 
+
+Version 1.0.8 - 08.02.2015.
+- Changes inside the style.css - better responsive performance 
+
+Version 1.0.7 - 13.01.2015.
+- Modified description 
+
+Version 1.0.6 - 12.01.2015.
+- Fixed text string in customizer.php
+- Fixed escape missing in header.php
+
+Version 1.0.5 - 12.01.2015.
+-Added new theme screenshot
+
+Version 1.0.4 - 11.01.2015.
+- Added tag: translatation-ready
+- Removed  modernizr.js file
+- Clearing the functions.php file
+- Small fixes inside the footer.php, header.php, customizer.php and extras.php files
+
+Version 1.0.1, 1.0.2, 1.0.3 - 04.12.2014.
+- Changed theme name in style.css
+
+Version 1.0 - 04.12.2014.

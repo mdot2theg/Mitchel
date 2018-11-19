@@ -1,0 +1,513 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-10 12:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: content-video.php:29 content-aside.php:16 content-single.php:17 
+#: content-image.php:27 content-archive.php:15 content-quote.php:17 
+#: content.php:27
+#, php-format
+msgid "All %s posts"
+msgstr ""
+
+#: content-video.php:31 content-page.php:20 content-aside.php:18 
+#: content-single.php:19 content-single.php:68 content-image.php:29 
+#: content-archive.php:17 content-archive.php:65 content-quote.php:20 
+#: content.php:29 inc/template-tags.php:77 inc/template-tags.php:107
+msgid "Edit"
+msgstr ""
+
+#: content-video.php:34 content-aside.php:21 content-single.php:22 
+#: content-image.php:32 content-archive.php:20 content-quote.php:22 
+#: content.php:32
+msgid "Leave a comment"
+msgstr ""
+
+#: content-video.php:34 content-aside.php:21 content-single.php:22 
+#: content-image.php:32 content-archive.php:20 content-quote.php:22 
+#: content.php:32
+msgid "1 Comment"
+msgstr ""
+
+#: content-video.php:34 content-aside.php:21 content-single.php:22 
+#: content-image.php:32 content-archive.php:20 content-quote.php:22 
+#: content.php:32
+msgid "% Comments"
+msgstr ""
+
+#: content-video.php:43 functions.php:203 content-aside.php:13 
+#: content-image.php:41 content-quote.php:13 content.php:41
+msgid "Read More"
+msgstr ""
+
+#: content-video.php:46 content-page.php:13 content-aside.php:32 
+#: content-single.php:34 content-image.php:44 content-archive.php:32 
+#: content-quote.php:27 content.php:44
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:20
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:20
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:22
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:63
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:64
+msgid "Social"
+msgstr ""
+
+#: functions.php:88
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:96
+msgid "Footer Widget Area"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by Libre Baskerville, translate this to 'off'. Do not translate into your own language.
+#: functions.php:139
+msgctxt "Libre Baskerville font: on or off"
+msgid "on"
+msgstr ""
+
+#. To add an additional Libre Baskerville character subset specific to your language, translate this to 'cyrillic'. Do not translate into your own language.
+#: functions.php:142
+msgctxt "Libre Baskerville font: add new subset (cyrillic)"
+msgid "no-subset"
+msgstr ""
+
+#: no-results.php:13 search.php:24
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:30
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:36
+msgid "Most Used Categories"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:52
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: header.php:24
+msgid "Menu"
+msgstr ""
+
+#: header.php:26 header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: comments.php:26
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:32 comments.php:50
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33 comments.php:51
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:34 comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: archive.php:29
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:35
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:35
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:37
+msgid "Asides"
+msgstr ""
+
+#: archive.php:39
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:41
+msgid "Images"
+msgstr ""
+
+#: archive.php:43
+msgid "Videos"
+msgstr ""
+
+#: archive.php:45
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:47
+msgid "Links"
+msgstr ""
+
+#: archive.php:49
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:51
+msgid "Audios"
+msgstr ""
+
+#: archive.php:53
+msgid "Chats"
+msgstr ""
+
+#: archive.php:55
+msgid "Archives"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#. used between list items, there is a space after the comma
+#. used between list items, there is a space after the comma
+#. used between list items, there is a space after the comma
+#: content-single.php:43 content-single.php:45 content-archive.php:40 
+#: content-archive.php:42
+msgid ", "
+msgstr ""
+
+#: content-single.php:49 content-archive.php:46
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">"
+"permalink</a>."
+msgstr ""
+
+#: content-single.php:51 content-archive.php:48
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:56 content-archive.php:53
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:58 content-archive.php:55
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:74
+msgid "by "
+msgstr ""
+
+#: searchform.php:9
+msgctxt "assistive text"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:38
+msgid "Previous testimonial"
+msgstr ""
+
+#: inc/template-tags.php:39
+msgid "Next testimonial"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "View the post"
+msgstr ""
+
+#: inc/template-tags.php:45
+msgid "Previous post"
+msgstr ""
+
+#: inc/template-tags.php:46
+msgid "Next post"
+msgstr ""
+
+#: inc/template-tags.php:51
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:77
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:93
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:99
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:124
+#, php-format
+msgid ""
+"<span class=\"sticky-post\">Sticky</span><span class=\"byline\"><span "
+"class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\" "
+"rel=\"author\">%3$s</a></span></span>"
+msgstr ""
+
+#: inc/template-tags.php:126 inc/template-tags.php:136
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/template-tags.php:130
+#, php-format
+msgid ""
+"<span class=\"entry-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">"
+"<time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span> <span "
+"class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" "
+"href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: inc/customizer.php:26 admin/admin.php:57
+msgid "The Thinker Pro"
+msgstr ""
+
+#: inc/customizer.php:29 admin/admin.php:60
+msgid ""
+"Full version of this theme includes additional features; additional page "
+"templates, front page templates, WooCommerce support, color options & "
+"premium theme support."
+msgstr ""
+
+#: inc/customizer.php:32
+msgid "Additional Features:"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Additional Page Templates"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Front Page Templates"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "WooCommerce Support"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Color Options"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Premium Theme Support"
+msgstr ""
+
+#: inc/customizer.php:53 admin/admin.php:64
+msgid "Read more about The Thinker"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Pro Features"
+msgstr ""
+
+#: inc/customizer.php:137
+msgid "Upgrade to The Thinker Pro"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Theme Related Links:"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Theme Info Page"
+msgstr ""
+
+#: inc/customizer.php:142 admin/admin.php:31
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/customizer.php:144 admin/admin.php:77
+msgid "Rate this theme"
+msgstr ""
+
+#: admin/admin.php:7
+msgid "Welcome to The Thinker Lite"
+msgstr ""
+
+#: admin/admin.php:7
+msgid "Theme Info"
+msgstr ""
+
+#: admin/admin.php:17
+#, php-format
+msgid "Welcome to %1s %2s"
+msgstr ""
+
+#: admin/admin.php:25
+#, php-format
+msgid "Getting Started with %s"
+msgstr ""
+
+#: admin/admin.php:34
+msgid ""
+"Please check the documentation to get better overview of how the theme is "
+"structured."
+msgstr ""
+
+#: admin/admin.php:38
+msgid "Visit Documentation"
+msgstr ""
+
+#: admin/admin.php:44
+msgid "Theme Options"
+msgstr ""
+
+#: admin/admin.php:47
+msgid "Click \"Customize\" to open the Customizer."
+msgstr ""
+
+#: admin/admin.php:51
+msgid "Customize"
+msgstr ""
+
+#: admin/admin.php:70
+msgid "Theme Screenshot"
+msgstr ""
+
+#: admin/admin.php:77
+#, php-format
+msgid "%1s is proudly brought to you by %2s. If you like %3s: %4s."
+msgstr ""
+
+#. Name of the theme
+msgid "The Thinker Lite"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"\"The Thinker Lite\" is a perfectly simple blogging theme. It has just "
+"enough detail without being flashy and just enough features not to get "
+"complicated. Beautiful typography and clean layout are a must for any modern "
+"blogger and this is where \"The Thinker Lite\" excels. It keeps readers "
+"focused on the content while creating relaxing environment for the eyes. "
+"Nice responsive behavior keeps that perfect balance across the whole range "
+"of internet capable devices. Be it a 4\" smartphone, 10\" Tablet or a 27\" "
+"screen this theme will hold its own unique character and content oriented "
+"approach. Theme Demo and Documentation: http://www.anarieldesign.com/the-"
+"thinker-lite-free-wordpress-theme/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.anarieldesign.com/the-thinker-lite-free-wordpress-theme/"
+msgstr ""
+
+#. Author of the theme
+msgid "Anariel Design"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://anarieldesign.com/"
+msgstr ""

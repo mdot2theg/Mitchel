@@ -1,0 +1,473 @@
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+a {
+	background-color: transparent;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn {
+	font-style: italic;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+mark {
+	background: #ff0;
+	color: #404040;
+}
+
+small {
+	font-size: 13px;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+img {
+	border: 0;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+figure {
+	margin: 1em 40px;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+pre {
+	overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+optgroup {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+html .mceContentBody {
+	max-width: 739px;
+}
+body.mceContentBody {
+	color: #000;
+	font-family: 'Libre Baskerville', Georgia, serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 29px;
+}
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	clear: both;
+	margin-bottom: 12px;
+	color: #000;
+	font-weight: 500;
+}
+h1 {
+	font-size: 27px;
+	line-height: 44px;
+}
+h2 {
+	font-size: 25px;
+	line-height: 40px;
+}
+h3 {
+	font-size: 22px;
+	line-height: 36px;
+}
+h4 {
+	font-size: 20px;
+	line-height: 32px;
+}
+h5 {
+	font-size: 18px;
+	line-height: 29px;
+}
+h6 {
+	font-size: 16px;
+	line-height: 28px;
+}
+hr {
+	background-color: none;
+	border-bottom: 1px solid #e0e0e0;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin-bottom: 23px;
+}
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.75em 1.75em 2.25em;
+	font-size: 18px;
+}
+
+address {
+	margin: 0 0 1.75em;
+}
+
+pre {
+	background: #f0f2f0;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 24px;
+	padding: 24px;
+	overflow: auto;
+	max-width: 100%;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 16px;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+/* =Genericons
+----------------------------------------------- */
+
+/*
+IE8 and below use EOT and allow cross-site embedding.
+IE9 uses WOFF which is base64 encoded to allow cross-site embedding.
+So unfortunately, IE9 will throw a console error, but it'll still work.
+*/
+@font-face {
+	 font-family: Genericons;
+	 src: url(fonts/genericons-regular-webfont.eot);
+	 src: url(fonts/genericons-regular-webfont.eot?#iefix) format("embedded-opentype"), url(fonts/genericons-regular-webfont.woff) format("woff"), url(fonts/genericons-regular-webfont.ttf) format("truetype"), url(fonts/genericons-regular-webfont.svg#genericonsregular) format("svg");
+	 font-weight: normal;
+	 font-style: normal;
+}
+.anarielgenericon:before, 
+.anarielgenericon:after, 
+footer.entry-meta .edit-link a:before {
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 16px/1 Genericons;
+	vertical-align: top;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote {
+	font-style: italic;
+	margin: 0 0 24px;
+	line-height: 49px;
+}
+blockquote em, 
+blockquote i, 
+blockquote cite {
+	font-style: normal;
+}
+blockquote p {
+	font-size: 30px;
+	line-height: 49px;
+	font-weight: 500;
+	margin: 0;
+}
+blockquote:before {
+	color: #000;
+	content: '\f106';
+	font-size: 30px;
+	display: inline-block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 3px 30px 0 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+	font-family: 'Genericons';
+	text-decoration: inherit;
+	font-weight: 600;
+	font-style: normal;
+	vertical-align: middle;
+}
+blockquote cite {
+	float: right;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	position: relative;
+	font-style: normal;
+	text-transform: none;
+}
+blockquote cite a {
+	color: #000;
+}
+.pullquote {
+	border: 0;
+	padding: 1em 0;
+	margin: .5em 1.6em 1em 0;
+	text-align: right;
+	width: 35%;
+	float: left;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+.pullquote.alignright {
+	margin: 1em 0 1em 1.625em;
+	text-align: left;
+	float: right;
+}
+.pullquote p {
+	margin: 0;
+	overflow: hidden;
+	font-size: 1.2em;
+	font-style: italic;
+	border-left: none;
+	padding: 0;
+	font-weight: 600;
+}
+.comments-area blockquote {
+	font-size: 18px;
+}
+
+.intro {
+	font-style: italic;
+	font-size: 23px;
+}
+
+ul,
+ol {
+	margin: 0 0 1.75em 0;
+	padding-left: 1.75em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: .4375em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.75em 1.75em;
+}
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+table {
+	margin: 0 0 1.75em;
+	width: 100%;
+}
+
+td {
+	padding: 3px;
+}
+
+caption {
+	font-weight: bold;
+	padding: .4375em 0;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	max-width: 100%;
+	padding: 0;
+	margin-bottom: 1.75em;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0 auto;
+}
+.wp-caption-dd {
+	font-size: 14px;
+	font-style: italic;
+	position: relative;
+}
+.wp-caption-dd:before {
+	content: "\2014";
+	font-style: normal;
+	position: absolute;
+		top: 0;
+		left: -1.75em;
+}
+.wp-caption .wp-caption-dd {
+	margin: 0.8075em 0;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin: .875em 1.75em .875em 0 !important;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin: .875em 0 .875em 1.75em !important;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: .875em auto !important;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+	margin-bottom: 1.75em;
+}
+
+.gallery-item {
+	display: inline-block;
+	padding: 0.4375em;
+	margin: 0;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
